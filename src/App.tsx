@@ -7,6 +7,7 @@ import JobForm from './components/JobForm';
 import TeamCard from './components/TeamCard';
 import { jobs } from './data/jobs';
 import { teamMembers } from './data/team';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [isVerified, setIsVerified] = useState(false);
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+       <Analytics />
       <VerificationModal 
         isOpen={showModal && !isVerified} 
         onVerified={handleVerification}
