@@ -6,7 +6,7 @@ export const jobs: Job[] = [
     title: 'Raj-mistry (Cement-Ret ka Ustad)',
     company: 'Bihar Nirman Company (Pakka Kaam Guarantee)',
     location: 'Patna, Bihar',
-    salary: '₹15,000 - ₹25,000 (Litti-Chokha ke saath)',
+    salary: '₹15,000 - ₹25,000 (Litti-Chokha kee saath)',
     type: 'Poora Samay',
     experience: '1-2 saal',
     description: 'Patna mein chalu nirman kaam ke liye anubhavi raj-mistry chaahi. Cement-ret mein expert hona chaahi, aur thoda sa jugaad bhi aana chaahi!',
