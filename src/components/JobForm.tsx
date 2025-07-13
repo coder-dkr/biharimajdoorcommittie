@@ -15,10 +15,9 @@ export default function JobForm() {
         <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
           <Send className="w-8 h-8 text-green-600" />
         </div>
-        <h3 className="text-xl font-bold text-green-700 mb-2">Form Bhej Dewa Gail!</h3>
+        <h3 className="text-xl font-bold text-green-700 mb-2">Form Bhej Dehal Gail!</h3>
         <p className="text-green-600">
-          Dhanyawad! Rahanki form bhej dewa gail hai. Ham jaldi rahanki se baat karaba. 
-          Bindaas wait kara! 🎉
+          Dhanyawad! Tahar log k form bhej dehal gail ba tabtk bindas raha log 🎉
         </p>
       </motion.div>
     );
@@ -43,7 +42,7 @@ export default function JobForm() {
             name="name"
             required
             className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-            placeholder="Rahanki pura naam likha"
+            placeholder="Apan pura naam likha"
           />
         </div>
 
@@ -58,7 +57,7 @@ export default function JobForm() {
             name="email"
             required
             className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-            placeholder="rahanki.email@example.com"
+            placeholder="tahlog.email@example.com"
           />
           <ValidationError 
             prefix="Email" 
@@ -71,7 +70,7 @@ export default function JobForm() {
         <div>
           <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
             <Phone className="w-4 h-4 inline mr-2" />
-            Mobile Nambar *
+            Mobile Number daala *
           </label>
           <input
             id="phone"
@@ -86,7 +85,7 @@ export default function JobForm() {
         <div>
           <label htmlFor="location" className="block text-sm font-semibold text-gray-700 mb-2">
             <MapPin className="w-4 h-4 inline mr-2" />
-            Ghar Ke Thikana
+            Ghar K Thikana
           </label>
           <input
             id="location"
@@ -108,7 +107,7 @@ export default function JobForm() {
           name="experience"
           className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
         >
-          <option value="">Anubhav chuna</option>
+          <option value="">Vibhaag chuna</option>
           <option value="naya">Naya (0 baras)</option>
           <option value="1-2">1-2 saal</option>
           <option value="3-5">3-5 saal</option>
@@ -131,7 +130,7 @@ export default function JobForm() {
 
       <div>
         <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-          Aur Kuchh Batana Chahta
+          Aur Kuchh Batwa
         </label>
         <textarea
           id="message"
@@ -165,7 +164,7 @@ export default function JobForm() {
 
       {state.errors && (
         <div className="text-center text-sm text-red-500">
-          Kuchh gadbad ho gail! Phir se try kara.
+          Kuchh galti ho gail! Phir se try kara.
         </div>
       )}
     </motion.form>

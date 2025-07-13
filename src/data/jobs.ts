@@ -11,7 +11,7 @@ export const jobs: Job[] = [
     experience: '1-2 saal',
     description: 'Patna mein chalu nirman kaam ke liye anubhavi raj-mistry chaahi. Cement-ret mein expert hona chaahi, aur thoda sa jugaad bhi aana chaahi!',
     requirements: ['Shareer mein Bihar wala dam', 'Cement-ret ka PhD', 'Safety ke saath-saath jugaad', 'Team mein bindaas kaam'],
-    perks: ['Samosa-Chai sanjha ka muft 🍵', 'Khaini muft (kaam ke hisab se)', 'Rabibar ko Litti-Chokha bhoj', 'Extra kaam mein paan-masala'],
+    perks: ['Samosa-Chai saam k muft mili 🍵', 'Khaini muft (kaam ke hisab se)', 'Rabibar ko Litti-Chokha bhoj', 'Extra kaam mein paan-masala'],
     postedDate: '2 din pahile'
   },
   {
@@ -22,7 +22,7 @@ export const jobs: Job[] = [
     salary: '₹12,000 - ₹18,000 (Chai-Paan extra)',
     type: 'Poora Samay',
     experience: 'Naya',
-    description: 'Factory mein packing aur machine line ke kaam ke liye majdoor chaahi. Naya logo ke liye training dewa jaega, aur machine se dosti bhi sikhayenge!',
+    description: 'Factory mein packing aur machine line k kaam ka khair majdoor chaahi. Naya log ke liye training dehal jai, aur machine se dosti bhi karvawal jai!',
     requirements: ['Machine se pyaar karna', 'Hath mein jaadu', 'Shift mein bindaas rehna', 'Thoda sa padha-likha (signature aana chaahi)'],
     perks: ['Chai-Biscuit har 2 ghanta mein', 'Khaini roj ka hissa (achha kaam pe bonus)', 'AC kamra mein kaam (garmi se bachaw)', 'Tyohar bonus + mithai'],
     postedDate: '1 hafta pahile'

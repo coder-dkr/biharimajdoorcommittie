@@ -10,17 +10,17 @@ interface Question {
 
 const bihariQuestions: Question[] = [
   {
-    question: "Bihar ke rajdhani ke naam ka hai? (Arre yaar, iska ta sabko maloom hona chaahi!)",
+    question: "Bihar ke rajdhani ke naam ka hai? (Arre yaar, e ta pta hokhe k chahi!)",
     options: ["Patna (Litti-Chokha ke ghar)", "Gaya (Pind-daan wala)", "Muzaffarpur (Shahi Litchi wala)", "Bhagalpur (Silk wala)"],
     correct: 0
   },
   {
-    question: "Bihar mein sabse zyada josh mein kona tyohar manawa jaata hai? (Ganga kinare wala!)",
+    question: "Bihar mein sabse zyada josh mein kona tyohar manawal jaala hai? (Ganga kinare wala!)",
     options: ["Diwali (Patakha wala)", "Holi (Rang-barse wala)", "Chhath Puja (Ganga mein khada hoke)", "Dussehra (Ravana jalawa wala)"],
     correct: 2
   },
   {
-    question: "Bihar mein kona nadi hai jo sabse zyada pavitra maani jaata hai? (Isme nahake paap dhul jaata hai!)",
+    question: "Bihar mein kona nadi ha jaun sabse zyada pavitra maanal jaala? (Isme nahake paap dhul jaata hai!)",
     options: ["Yamuna (Krishna wali)", "Ganga Maiya (Har Har Gange!)", "Narmada (Dakshin wali)", "Godavari (Telangana wali)"],
     correct: 1
   }

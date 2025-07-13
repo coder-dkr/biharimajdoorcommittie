@@ -82,7 +82,7 @@ function App() {
               className="text-center"
             >
               <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                Rahanki Sapna ke Kaam Ihawe Hai! 🚀
+                Tahlog k sapna k niwaran 🚀
               </h2>
               <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
                 Bihar ke har kona se aawa wala majdoor ke liye rojgar ke mauka! 
